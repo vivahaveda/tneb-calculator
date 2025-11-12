@@ -1,0 +1,5 @@
+{
+  "name": "TNEB Electricity Bill Calculator",
+  "description": "A simple one-page web application to calculate the TNEB (Tamil Nadu Electricity Board) bi-monthly electricity bill based on consumed units. It provides a detailed breakdown of the calculation based on the latest tariff slabs for domestic connections.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>TNEB Bill Calculator 2025 – Tamil Nadu EB Bill Estimator</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Use our TNEB Bill Calculator to estimate your Tamil Nadu electricity bill online using the latest 2025 TANGEDCO tariff rates." />
+    <meta name="keywords" content="TNEB Bill Calculator, TANGEDCO Electricity Bill Calculator, Tamil Nadu EB Bill Calculator, EB Unit Rate 2025, TNEB Online Bill Check, Electricity Bill Estimate Tamil Nadu, TANGEDCO Tariff Calculator, TN EB Reading Calculation" />
+    <meta name="author" content="TNEB Bill Calculator" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TNEB Bill Calculator 2025 – Tamil Nadu EB Bill Estimator" />
+    <meta property="og:description" content="Use our TNEB Bill Calculator to estimate your Tamil Nadu electricity bill online using the latest 2025 TANGEDCO tariff rates." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="TNEB Bill Calculator 2025 – Tamil Nadu EB Bill Estimator" />
+    <meta property="twitter:description" content="Use our TNEB Bill Calculator to estimate your Tamil Nadu electricity bill online using the latest 2025 TANGEDCO tariff rates." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes scaleIn {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 dark:bg-slate-900 font-sans antialiased">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "TNEB Bill Calculator",
+      "description": "Calculate your Tamil Nadu electricity bill online using the latest TANGEDCO tariff rates. Accurate, fast, and mobile-friendly TNEB bill calculator.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "All",
+      "creator": {
+        "@type": "Organization",
+        "name": "TNEB Bill Calculator"
+      }
+    }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
